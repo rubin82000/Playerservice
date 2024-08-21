@@ -13,8 +13,6 @@ PlayService is a Java application based on Spring, designed to manage and monito
 - Automatic reloading of data when the source CSV file is modified.
 - Unit and integration tests for ensuring reliability.
 
-**Note**: Database integration and additional tests were not implemented, but I'm open to discussing them during our meeting.
-
 ## Installation
 
 ### Requirements
@@ -92,6 +90,20 @@ mvn test
 Integration tests are also included to ensure that the application interacts with its environment correctly. They can be run using the same Maven command as above.
 
 **Note**: Additional tests can be discussed during the meeting.
+
+Note: Additional tests can be discussed.
+
+Incomplete Tasks
+- Optimization: Performance improvements can include streaming data processing (e.g., BufferedReader), splitting large files, and implementing asynchronous and parallel processing.
+
+- Deployment: Not completed. Includes Docker containerization, Docker Compose usage, and CI/CD setup.
+
+- In-depth Testing: Not all classes have been tested.
+
+- File Lock Handling: Not implemented.
+
+- Using Redis: Redis was not implemented as a database solution.
+
 
 ## Contact
 
