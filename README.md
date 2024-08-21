@@ -95,16 +95,17 @@ Note: Additional tests can be discussed.
 
 ### Incomplete Tasks
 
-- Optimization: Performance improvements can include streaming data processing (e.g., BufferedReader), splitting large files, and implementing asynchronous and parallel processing.
+1. **Optimization**: Performance improvements can include using data streaming (e.g., `BufferedReader`), large file splitting, and asynchronous or parallel processing.
 
-- Deployment: Not completed. Includes Docker containerization, Docker Compose usage, and CI/CD setup.
+2. **Deployment**: Not completed. Includes Docker containerization, Docker Compose usage, and CI/CD setup.
 
-- In-depth Testing: Not all classes have been tested.
+3. **In-Depth Testing**: Not all classes have been tested.
 
-- File Lock Handling: Not implemented.
+4. **File Lock Handling**: Not implemented.
 
-- Using Redis: Redis was not implemented as a database solution.
+5. **Redis Usage**: Redis was not implemented as a database solution.
 
+6. **Strategy Pattern for Data Collection**: The Strategy pattern for flexible data collection from various sources (e.g., different files, databases, etc.) was not implemented.
 
 ## Contact
 
