@@ -93,7 +93,8 @@ Integration tests are also included to ensure that the application interacts wit
 
 Note: Additional tests can be discussed.
 
-Incomplete Tasks
+### Incomplete Tasks
+
 - Optimization: Performance improvements can include streaming data processing (e.g., BufferedReader), splitting large files, and implementing asynchronous and parallel processing.
 
 - Deployment: Not completed. Includes Docker containerization, Docker Compose usage, and CI/CD setup.
